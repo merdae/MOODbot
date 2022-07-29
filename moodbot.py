@@ -38,4 +38,3 @@ async def newsletter(ctx):
 
 
 
-client.run("OTc5MTMxNTc2MzI1NjUyNDgw.GvPIv8.YknSF3IKVoly__KabaUb15KqEd_lwpwi5rsmZk")
