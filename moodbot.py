@@ -28,6 +28,9 @@ async def help(ctx):
 async def vercel(ctx):
     await ctx.channel.send("https://mood-ssr.vercel.app")
 @client.command()
+async def creation_date(ctx):
+    await ctx.channel.send("MOOD was created on Aug 8, 2021")    
+@client.command()
 async def webapp(ctx):
     await ctx.channel.send("https://mood-23f44.web.app/home")
 @client.command()
