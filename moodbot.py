@@ -23,6 +23,7 @@ async def help(ctx):
     embed.add_field(name="!vercel", value="Sends You link to mood.vercel", inline=False)
     embed.add_field(name="!webapp", value="Sends You link to mood.webapp", inline=True)
     embed.add_field(name="!newsletter", value="newest post from mood", inline=False)
+    embed.add_field(name="!creation_date",value="Sends you creation date of mood app",inline=False)
     await ctx.channel.send(embed=embed)
 @client.command()
 async def vercel(ctx):
